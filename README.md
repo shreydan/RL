@@ -1,14 +1,17 @@
 # Reinforcement Learning
 
-requirements: `numpy pygame tqdm`
+requirements: `numpy matplotlib pygame tqdm torch gymnasium`
 
 # Implementations
 
 - [Simple Q Learning](./qtreats/)
   - Q-table based policy
-  - implemented treats game in pygame, where the goal of the agent(dog) is to reach the treat while avoiding the cats ![sample](./qtreats/assets/sample.png)
+  - implemented treats game in pygame, where the goal of the agent(dog) is to reach the treat while avoiding the cats ![sample](./qtreats/assets/sample.png){width=300}
 
-
+- [Deep Q Learning](./dqn-cartpole/)
+- DQN based policy
+- implemented vanilla DQN and double DQN training for the cartpole env from gymnasium
+![sample](dqn-cartpole.gif){width=300}
 
 
 ---
