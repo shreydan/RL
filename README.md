@@ -21,7 +21,7 @@ requirements: `numpy matplotlib pygame tqdm torch gymnasium`
   - Updated the frame-buffer and replay-buffer to handle multiple envs at once.
   - All the code is available with outputs in [this notebook](./dqn-atari-breakout/full_code.ipynb)
   - Good starter results with only 5 hours of training.
-<img src="./dqn-atari-breakout/game.gif" width="400">
+<img src="./dqn-atari-breakout/game.gif" width="480">
 ---
 
 ```
